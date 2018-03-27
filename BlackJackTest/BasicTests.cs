@@ -9,6 +9,7 @@ namespace BlackJackTest
         [TestMethod]
         public void TestMethod1()
         {
+
         }
     }
 }

@@ -26,7 +26,7 @@ namespace BlackJack
         /// Gets or sets the deck.
         /// </summary>
         /// <value>The deck.</value>
-        public Deck Deck { get { return _deck; } set { _deck = value; } }
+        public Deck Deck { get => _deck; set => _deck = value; }
 
         /// <summary>
         /// The players hand.

@@ -1,6 +1,6 @@
 ﻿namespace BlackJack
 {
-    class Card
+    public class Card
     {
         /// <summary>
         /// The value.

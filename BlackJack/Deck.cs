@@ -2,7 +2,7 @@
 
 namespace BlackJack
 {
-    class Deck
+    public class Deck
     {
         /// <summary>
         /// Are aces high?
@@ -29,7 +29,7 @@ namespace BlackJack
         /// Gets or sets the cards.
         /// </summary>
         /// <value>The cards.</value>
-        public List<Card> Cards { get { return _cards; } set { _cards = value; } }
+        public List<Card> Cards { get => _cards; set => _cards = value; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="T:BlackJack.Deck"/> class.
